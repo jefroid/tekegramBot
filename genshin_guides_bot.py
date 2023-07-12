@@ -1,4 +1,3 @@
-import genshin_buttons
 from config import TOKEN
 
 from aiogram import Dispatcher, executor, types, Bot
