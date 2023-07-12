@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram Bot
+After=network.target
+
+[Service]
+User=andrew
+Group=andrew
+WorkingDirectory=/home/andrew/tekegramBot/
+Environment="PYTHONPATH=/home/andrew/tekegramBot/"
+ExecStart=/home/andrew/tekegramBot/.venv/bin/python /home/andrew/tekegramBot/genshin_guides_bot.py
+
+[Install]
+WantedBy=multi-user.target
