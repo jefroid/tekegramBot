@@ -353,10 +353,44 @@ bennett = '''Оружие:
     Ульту максим, остальное по-желанию
 
 Роль и примеры отрядов
-    Роль: Беннет саппорт и сап ДД/хиллер, который очень сильно баффает команду на силу атаки из "кармана", заходит в ЛЮБУЮ пачку, кроме тех где не нужен хил:
+    Роль: Беннет саппорт и сап ДД/хиллер, который очень сильно баффает команду на силу атаки из "кармана", заходит в ЛЮБУЮ пачку, кроме тех где НЕ нужен хил:
 
     Примеры отрядов:
         Аяка, Шэнь Хэ, Кокоми/Елань/Син Цю, Беннет
         Гань Юй, Сян Лин, Беннет, Чжун Ли
 
 Ресурсы для прокачки:'''
+
+text_guides_dict = {'Чжун Ли⏳': zhongli, 'Кадзуха🌪': kazuha, 'Райден⚡': raiden,
+                    'Аяка❄': ayaka, 'Ху Тао👻': hutao, 'Гань Юй🏹': ganyu,
+                    'Беннет🔥': bennett, 'Сян Лин🥩': xiangling, 'Сяо👹': xiao}
+
+character_resources = {'Чжун Ли⏳': 'https://yvid.ru/wp-content/uploads/2020/12/Vozvyshenie-Chzhun-Li.jpg',
+                       'Кадзуха🌪': 'https://avatars.dzeninfra.ru/get-zen_doc/3964212/pub_60bb3'
+                                   '2a5bbd5974178426208_60db6c63e09a980274445814/scale_1200',
+                       'Райден⚡': 'https://yvid.ru/wp-content/uploads/2020/12/Vozvyshenie-Segun-Rajden.jpg',
+                       'Аяка❄': 'https://avatars.dzeninfra.ru/get-zen_doc/108399/pub_60f1942d'
+                                   'cf9db26ddaa80079_60f890cb0c14cd3ca97173a6/scale_1200',
+                       'Ху Тао👻': 'https://genshin.ru/wp-content/uploads/2023/02/prokachka_hu_tao.jpg',
+                       'Гань Юй🏹': 'https://avatars.dzeninfra.ru/get-zen_doc/4935831/pub_5ffcbcf5aeef3c7829ff1'
+                                   'd1f_60deced3526c5a7dabffa516/scale_1200',
+                       'Беннет🔥': 'https://genshindb.ru/wp-content/uploads/2021/04/bennet-res.jpg',
+                       'Сян Лин🥩': 'https://avatars.dzeninfra.ru/get-zen_doc/168601/pub_6001eb08d0d4386c9fd167c0_6130a'
+                                   'e03ef7362581490eef2/scale_1200',
+                       'Сяо👹': 'https://genshinhelper.ru/wp-content/uploads/2021/07/%D0%9C%D0%B0%D1%82%D0%B5%D1%8'
+                                   '0%D0%B8%D0%B0%D0%BB%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%BE%D0%B7%D0%B2%D1%8B%D1%'
+                                   '88%D0%B5%D0%BD%D0%B8%D1%8F-%D1%81%D1%8F%D0%BE.jpg'}
+
+video_guides = {'Гайд на фарм артефактов': 'https://www.youtube.com/watch?v=ghbFFpQ_-XI',
+                'Чжун Ли⏳': 'часть 1: https://www.youtube.com/watch?v=725ikw9karY \n'
+                            'часть 2: https://www.youtube.com/watch?v=vbIqtzt-wk8',
+                'Кадзуха🌪': 'https://www.youtube.com/watch?v=HSgp20-AuyM',
+                'Райден⚡': 'гайд на персонажа: https://www.youtube.com/watch?v=LF0LiiNBcWk \n'
+                           'гайд на Raiden National: https://www.youtube.com/watch?v=oLkyhzdfENU',
+                'Аяка❄': 'https://www.youtube.com/watch?v=FBGEOw3NGOQ',
+                'Ху Тао👻': 'https://www.youtube.com/watch?v=X2mJItYYFEI',
+                'Гань Юй🏹': 'https://www.youtube.com/watch?v=I_fFvrjyjJw',
+                'Беннет🔥': 'https://www.youtube.com/watch?v=AvfHFcz4vUo',
+                'Сян Лин🥩': 'https://www.youtube.com/watch?v=9k5v1ZfVewU',
+                'Сяо👹': 'гайд: https://www.youtube.com/watch?v=U_ow8r_vuzs&t=2s \n'
+                        'дополнение: https://www.youtube.com/watch?v=s7KunA5UbMg'}
